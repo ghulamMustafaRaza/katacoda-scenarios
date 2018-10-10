@@ -1,0 +1,19 @@
+{
+  "title": "HyperLadger Fabric",
+  "description": "",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "courseData": "courseBase.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "Ubuntu"
+  }
+}
