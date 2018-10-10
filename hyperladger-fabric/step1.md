@@ -1,3 +1,3 @@
 # setup using prebuilted script
 for setup development run the folowing command.
-`sh ~/courseBase.sh`{{execute}}
+`curl https://raw.githubusercontent.com/gmraza/katacoda-scenarios/master/hyperladger-fabric/courseBase.sh | sh`{{execute}}
