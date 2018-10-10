@@ -1,11 +1,25 @@
 {
   "title": "HyperLadger Fabric",
   "description": "",
+  "assets": {
+    "client": [
+      {
+        "file": "courseBase.sh",
+        "target": "~/"
+      }
+    ]
+  },
   "details": {
     "intro": {
       "text": "intro.md",
       "courseData": "courseBase.sh"
     },
+    "steps": [
+      {
+        "title": "Step 1 - Setup Envienment",
+        "text": "step1.md"
+      }
+    ],
     "finish": {
       "text": "finish.md"
     }
