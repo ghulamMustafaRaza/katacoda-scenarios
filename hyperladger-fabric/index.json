@@ -11,8 +11,7 @@
   },
   "details": {
     "intro": {
-      "text": "intro.md",
-      "courseData": "courseBase.sh"
+      "text": "intro.md"
     },
     "steps": [
       {
