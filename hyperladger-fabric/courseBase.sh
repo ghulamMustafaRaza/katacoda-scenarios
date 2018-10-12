@@ -22,7 +22,7 @@ sudo mv go /usr/local
 cd ~
 echo 'export GOPATH=$HOME/myworkspace' >> ~/.bashrc
 echo 'export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin' >> ~/.bashrc
-source .bashrc
+sh ~/.bashrc
 go version
 #################################
 curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
@@ -35,7 +35,7 @@ cd hyperledger-binaries/
 curl -sSL http://bit.ly/2ysbOFE | bash -s 1.3.0-rc1 1.3.0-rc1 0.4.12
 echo 'export FABRICPATH=$HOME/hyperledger-binaries/fabric-samples' >> ~/.bashrc
 echo 'export PATH=$PATH:$FABRICPATH/bin' >> ~/.bashrc
-source ~/.bashrc
+sh ~/.bashrc
 cd ~
 #################################
 echo "start development find samples at ~/fabric-samples"
